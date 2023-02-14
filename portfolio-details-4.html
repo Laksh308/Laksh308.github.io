@@ -39,7 +39,12 @@
     width: 100%;
     height: auto;
   }
-    
+   .contain {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -71,7 +76,7 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
+                <div class="contain">
                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/TTsRrCJ_EhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 <!--<div class="swiper-slide">
